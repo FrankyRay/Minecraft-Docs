@@ -15,4 +15,9 @@
          <lastmod>2022-03-30</lastmod>
          <changefreq>daily</changefreq>
     </url>
+    <url>
+         <loc>https://example.com/commands/data_value/</loc>
+         <lastmod>2022-03-30</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
 </urlset>
