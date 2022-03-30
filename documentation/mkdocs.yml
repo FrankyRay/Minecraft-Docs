@@ -1,6 +1,9 @@
 site_name: Personal Docs
 site_url: https://example.com/
 
+repo_url: https://github.com/FrankyRay/Minecraft-Docs
+repo_name: FrankyRay/Minecraft-Docs
+
 nav:
   - Home: 
     - index.md
@@ -11,6 +14,8 @@ theme:
   name: material
   features:
     - navigation.tabs
+  icon:
+    repo: fontawesome/brands/git-alt
   palette: 
   - scheme: default
     primary: deep purple
