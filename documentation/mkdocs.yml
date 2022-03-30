@@ -8,6 +8,7 @@ nav:
   - Home: index.md
   - Commands:
     - Data Value: commands/data_value.md
+    - T-Flip-Flop: commands/toggle.md
   - Misc:
     - about.md
     - Test: test.md
