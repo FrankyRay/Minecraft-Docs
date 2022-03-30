@@ -1,6 +1,6 @@
 # Data Values
 
-Data value are block/item variation. Data value can be rotation of the block, block colour, item durability, etc.
+Data value are block/item variation. Data value can be rotation of the block, block colour, item durability, etc. Data value can be called "Block State"
 
 ## List of Data Values
 
