@@ -5,12 +5,12 @@ repo_url: https://github.com/FrankyRay/Minecraft-Docs
 repo_name: FrankyRay/Minecraft-Docs
 
 nav:
-  - Home: 
-    - Index: index.md
-    - About: about.md
-    - Test: test.md
+  - Home: index.md
   - Commands:
     - Data Value: commands/data_value.md
+  - Misc:
+    - About: about.md
+    - Test: test.md
 
 theme: 
   name: material
