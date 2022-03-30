@@ -515,80 +515,6 @@
 <p>Data value are block/item variation. Data value can be rotation of the block, block colour, item durability, etc.</p>
 <h2 id="list-of-data-values">List of Data Values</h2>
 <h3 id="coloured-block">Coloured Block</h3>
-<table>
-<thead>
-<tr>
-<th>Colour</th>
-<th>Data Value</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>White</td>
-<td><code>0</code></td>
-</tr>
-<tr>
-<td>Orange</td>
-<td><code>1</code></td>
-</tr>
-<tr>
-<td>Magenta</td>
-<td><code>2</code></td>
-</tr>
-<tr>
-<td>Light Blue</td>
-<td><code>3</code></td>
-</tr>
-<tr>
-<td>Yellow</td>
-<td><code>4</code></td>
-</tr>
-<tr>
-<td>Lime</td>
-<td><code>5</code></td>
-</tr>
-<tr>
-<td>Pink</td>
-<td><code>6</code></td>
-</tr>
-<tr>
-<td>Gray</td>
-<td><code>7</code></td>
-</tr>
-<tr>
-<td>Light Gray</td>
-<td><code>8</code></td>
-</tr>
-<tr>
-<td>Cyan</td>
-<td><code>9</code></td>
-</tr>
-<tr>
-<td>Purple</td>
-<td><code>10</code></td>
-</tr>
-<tr>
-<td>Blue</td>
-<td><code>11</code></td>
-</tr>
-<tr>
-<td>Brown</td>
-<td><code>12</code></td>
-</tr>
-<tr>
-<td>Green</td>
-<td><code>13</code></td>
-</tr>
-<tr>
-<td>Red</td>
-<td><code>14</code></td>
-</tr>
-<tr>
-<td>Black</td>
-<td><code>15</code></td>
-</tr>
-</tbody>
-</table>
 <details class="info">
 <summary>List of coloured block</summary>
 <ul>
@@ -602,7 +528,24 @@
 <li>Wool</li>
 </ul>
 </details>
-<p>[^1]: Bedrock Edition only</p>
+<div class="highlight"><pre><span></span><code><span class="nt">block</span><span class="p">:</span><span class="w"></span>
+<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">0 </span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">white</span><span class="w"></span>
+<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">1 </span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">orange</span><span class="w"></span>
+<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">2 </span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">magenta</span><span class="w"></span>
+<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">3 </span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">light_blue</span><span class="w"></span>
+<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">4 </span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">yellow</span><span class="w"></span>
+<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">5 </span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">lime</span><span class="w"></span>
+<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">6 </span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">pink</span><span class="w"></span>
+<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">7 </span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">gray</span><span class="w"></span>
+<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">8 </span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">silver</span><span class="w"></span>
+<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">9 </span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">cyan</span><span class="w"></span>
+<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">10</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">purple</span><span class="w"></span>
+<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">11</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">blue</span><span class="w"></span>
+<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">12</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">brown</span><span class="w"></span>
+<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">13</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">green</span><span class="w"></span>
+<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">14</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">red</span><span class="w"></span>
+<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">15</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">black</span><span class="w"></span>
+</code></pre></div>
 
               
             </article>
