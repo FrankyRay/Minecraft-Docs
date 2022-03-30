@@ -24,3 +24,17 @@ Brown      | `12`
 Green      | `13`
 Red        | `14`
 Black      | `15`
+
+??? info "List of coloured block"
+
+    - Concrete
+    - Concrete Powder
+    - Glazed Terracotta
+    - Shulker Box[^1]
+    - Stained Glass
+    - Stained Glass Pane
+    - Terracotta
+    - Wool
+
+
+[^1]: Bedrock Edition only
