@@ -6,25 +6,6 @@ Data value are block/item variation. Data value can be rotation of the block, bl
 
 ### Coloured Block
 
-Colour     | Data Value
------------|-----------
-White      | `0`
-Orange     | `1`
-Magenta    | `2`
-Light Blue | `3`
-Yellow     | `4`
-Lime       | `5`
-Pink       | `6`
-Gray       | `7`
-Light Gray | `8`
-Cyan       | `9`
-Purple     | `10`
-Blue       | `11`
-Brown      | `12`
-Green      | `13`
-Red        | `14`
-Black      | `15`
-
 ??? info "List of coloured block"
 
     - Concrete
@@ -36,5 +17,22 @@ Black      | `15`
     - Terracotta
     - Wool
 
-
-[^1]: Bedrock Edition only
+``` yaml
+block:
+  - 0 : white
+  - 1 : orange
+  - 2 : magenta
+  - 3 : light_blue
+  - 4 : yellow
+  - 5 : lime
+  - 6 : pink
+  - 7 : gray
+  - 8 : silver
+  - 9 : cyan
+  - 10: purple
+  - 11: blue
+  - 12: brown
+  - 13: green
+  - 14: red
+  - 15: black
+```
