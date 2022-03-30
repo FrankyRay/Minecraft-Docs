@@ -6,9 +6,11 @@ repo_name: FrankyRay/Minecraft-Docs
 
 nav:
   - Home: 
-    - index.md
+    - Index: index.md
     - About: about.md
     - Test: test.md
+  - Commands:
+    - Data Value: commands/data_value.md
 
 theme: 
   name: material
