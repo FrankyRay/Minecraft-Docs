@@ -9,7 +9,7 @@ nav:
   - Commands:
     - Data Value: commands/data_value.md
   - Misc:
-    - About: about.md
+    - about.md
     - Test: test.md
 
 theme: 
