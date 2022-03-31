@@ -23,6 +23,7 @@ For example:
 ``` yaml
 # Block List
 block: 
+  - Carpet
   - Concrete
   - Concrete Powder
   - Glazed Terracotta
@@ -32,7 +33,7 @@ block:
   - Terracotta
   - Wool
 
-# Integer + List Data Value
+# Data Value
 colour:
   - 0 : white
   - 1 : orange
@@ -71,25 +72,39 @@ stone_type:
 ``` yaml
 # Block List
 block:
-  - Woods & Fungus Type Button
+  - Wood Type Button
   - Stone Button
   - Polished Blackstone Button
-
-# Rotation/Position
-facing_direction:
-  - 0: Down
-  - 1: Up
-  - 2: North
-  - 3: South
-  - 4: West
-  - 5: East
-
-# Button Pressed
-button_pressed_bit:
-  - true : Activated (On)
-  - false: Not Activated (Off)
 ```
 
-Int 0-5 are the button direction, while +8 set the button to be pressed. For example:  
-`stone_button 1` -> Button facing up  
-`stone_button 9` -> Button facing up and activated [ 1 (Direction) + 8 = 9 (Button Activated) ]
+=== "Integer"
+
+    ``` yaml 
+    direction:
+      - 0: Down
+      - 1: Up
+      - 2: North
+      - 3: South
+      - 4: West
+      - 5: East
+    # Direction + 8 = Button Activated
+    # 1 (Facing Up) + 8 = 9 (Facing Up + Activated)
+    ```
+
+=== "List"
+
+    ``` yaml
+    # Rotation/Position
+    facing_direction:
+      - 0: Down
+      - 1: Up
+      - 2: North
+      - 3: South
+      - 4: West
+      - 5: East
+
+    # Button Pressed
+    button_pressed_bit:
+      - true : Activated (On)
+      - false: Not Activated (Off)
+    ```
