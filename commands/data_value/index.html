@@ -583,6 +583,7 @@
 <h3 id="coloured-block">Coloured Block<a class="headerlink" href="#coloured-block" title="Permanent link">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><span class="c1"># Block List</span><span class="w"></span>
 <span class="nt">block</span><span class="p">:</span><span class="w"> </span>
+<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Carpet</span><span class="w"></span>
 <span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Concrete</span><span class="w"></span>
 <span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Concrete Powder</span><span class="w"></span>
 <span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Glazed Terracotta</span><span class="w"></span>
@@ -592,7 +593,7 @@
 <span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Terracotta</span><span class="w"></span>
 <span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Wool</span><span class="w"></span>
 
-<span class="c1"># Integer + List Data Value</span><span class="w"></span>
+<span class="c1"># Data Value</span><span class="w"></span>
 <span class="nt">colour</span><span class="p">:</span><span class="w"></span>
 <span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">0 </span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">white</span><span class="w"></span>
 <span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">1 </span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">orange</span><span class="w"></span>
@@ -625,27 +626,40 @@
 <h3 id="button">Button<a class="headerlink" href="#button" title="Permanent link">&para;</a></h3>
 <div class="highlight"><pre><span></span><code><span class="c1"># Block List</span><span class="w"></span>
 <span class="nt">block</span><span class="p">:</span><span class="w"></span>
-<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Woods &amp; Fungus Type Button</span><span class="w"></span>
+<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Wood Type Button</span><span class="w"></span>
 <span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Stone Button</span><span class="w"></span>
 <span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Polished Blackstone Button</span><span class="w"></span>
-
-<span class="c1"># Rotation/Position</span><span class="w"></span>
-<span class="nt">facing_direction</span><span class="p">:</span><span class="w"></span>
-<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">0</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Down</span><span class="w"></span>
-<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">1</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Up</span><span class="w"></span>
-<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">2</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">North</span><span class="w"></span>
-<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">3</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">South</span><span class="w"></span>
-<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">4</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">West</span><span class="w"></span>
-<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">5</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">East</span><span class="w"></span>
-
-<span class="c1"># Button Pressed</span><span class="w"></span>
-<span class="nt">button_pressed_bit</span><span class="p">:</span><span class="w"></span>
-<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">true </span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Activated (On)</span><span class="w"></span>
-<span class="w">  </span><span class="p p-Indicator">-</span><span class="w"> </span><span class="nt">false</span><span class="p">:</span><span class="w"> </span><span class="l l-Scalar l-Scalar-Plain">Not Activated (Off)</span><span class="w"></span>
 </code></pre></div>
-<p>Int 0-5 are the button direction, while +8 set the button to be pressed. For example:<br />
-<code>stone_button 1</code> -&gt; Button facing up<br />
-<code>stone_button 9</code> -&gt; Button facing up and activated [ 1 (Direction) + 8 = 9 (Button Activated) ]</p>
+<p>=== "Integer"</p>
+<pre><code>``` yaml 
+direction:
+  - 0: Down
+  - 1: Up
+  - 2: North
+  - 3: South
+  - 4: West
+  - 5: East
+# Direction + 8 = Button Activated
+# 1 (Facing Up) + 8 = 9 (Facing Up + Activated)
+```
+</code></pre>
+<p>=== "List"</p>
+<pre><code>``` yaml
+# Rotation/Position
+facing_direction:
+  - 0: Down
+  - 1: Up
+  - 2: North
+  - 3: South
+  - 4: West
+  - 5: East
+
+# Button Pressed
+button_pressed_bit:
+  - true : Activated (On)
+  - false: Not Activated (Off)
+```
+</code></pre>
 
               
             </article>
