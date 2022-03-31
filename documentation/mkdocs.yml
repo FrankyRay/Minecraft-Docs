@@ -17,6 +17,7 @@ theme:
   name: material
   features:
     - navigation.tabs
+    - content.tabs.link
   icon:
     repo: fontawesome/brands/git-alt
   palette: 
@@ -42,6 +43,8 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.arithmatex:
       generic: true
+  - pymdownx.tabbed:
+      alternate_style: true 
 
 # extra_javascript:
 #   - javascripts/mathjax.js

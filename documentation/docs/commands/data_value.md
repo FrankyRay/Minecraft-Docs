@@ -2,11 +2,11 @@
 
 Data value are block/item variation. Data value can be rotation of the block, block colour, item durability, etc. Data value can be called "Block State"
 
-Data value divided into 2 type, integer only and JSON-List.
+Data value divided into 2 type, AUX (Metadata) and JSON-List.
 
 For example:
 ``` py
-# For integer
+# For AUX (Metadata)
 /give @p stone 5
 # For JSON-List
 /setblock 0 -60 0 stone_button ["facing_direction": 0, "button_pressed_bit": true]
@@ -77,7 +77,7 @@ block:
   - Polished Blackstone Button
 ```
 
-=== "Integer"
+=== "Metadata"
 
     ``` yaml 
     direction:
