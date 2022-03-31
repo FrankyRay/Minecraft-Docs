@@ -95,4 +95,4 @@ button_pressed_bit:
     Int 0-5 are the button direction, while +8 set the button to be pressed.
     For example:
     `stone_button 1` -> Button facing up
-    `stone_button 9` -> Button facing up and activated [ $1 (Direction) + 8 = 9 (Button Activated)$ ]
+    `stone_button 9` -> Button facing up and activated [ \(1 (Direction) + 8 = 9 (Button Activated)\) ]
