@@ -12,6 +12,7 @@ nav:
   - Misc:
     - about.md
     - Test: test.md
+    - Peaceful Mode: general/peaceful.md
 
 theme: 
   name: material
@@ -48,7 +49,7 @@ markdown_extensions:
       alternate_style: true 
   - pymdownx.tasklist:
       custom_checkbox: true
-      clickable_checkbox: true
+      clickable_checkbox: false
 
 # extra_javascript:
 #   - javascripts/mathjax.js
